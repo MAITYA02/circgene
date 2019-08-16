@@ -1,0 +1,15 @@
+citHeader("To cite the 'circgene' package in publications use:")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+
+bibentry(bibtype = "Article",
+         title = "Significant Circadean Gene Selection for Time-to-event Phenotype by Integrating CNV and RNAseq Data",
+         author = c(person("Maity", "Arnab Kumar"),
+                    person("Sarkar", "Tapasree Roy"),
+                    person("Mallick", "Bani K.")),
+         journal = "The American Statistician",
+         pages = "1-10",
+         year = "2018",
+         publisher = "Taylor and Francis",
+         url = "https://doi.org/10.1080/00031305.2017.1407359")

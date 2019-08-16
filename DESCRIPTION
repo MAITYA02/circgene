@@ -1,0 +1,17 @@
+Package: circgene
+Title: Integration of Circadian Omics Data
+Version: 0.0.1
+Authors@R: 
+    c(person("Arnab", "Maity", email = "arnab.maity@pfizer.com", role = c("aut", "cre")),
+      person("Tapasree", "Roy Sarkar", email = "tsarkar@bio.tamu.edu", role = "aut"),
+      person("Bani", "K. Mallick", email = "bmallick@stat.tamu.edu", role = "aut"),
+      person("Linhan", "Hu", email = "hulinhan2013@tamu.edu", role = "aut"))
+Description: This package provides the posterior sampling algorithm for the Bayesian
+             structural equation modelling for the purpose of multiple platforms
+             data integration with application to the Circadean genes.
+Depends: 
+Imports: msm, MASS
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
