@@ -4,8 +4,7 @@
 \alias{afths}
 \title{mcmc function}
 \usage{
-afths(ct, X, nburnin = 1000, nmc = 5000, thin = 1, Xtest = NULL,
-  cttest = NULL)
+afths(ct, X, nburnin = 1000, nmc = 5000, thin = 1, Xtest = NULL, cttest = NULL)
 }
 \arguments{
 \item{ct}{survival response, a \eqn{n*2} matrix with first column as response and second column as right censored indicator,
