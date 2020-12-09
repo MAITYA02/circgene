@@ -320,16 +320,14 @@ afths <- function (ct, X, nburnin = 1000, nmc = 5000, thin = 1,
     
     
     
-    loglikelihood <- sum(c(dnorm(y.observed, mean = alpha + X.observed %*% beta, sd = sqrt(sigma_sq),
+    likelihood    <- exp(c(dnorm(y.observed, mean = alpha + X.observed %*% beta, sd = sqrt(sigma_sq),
                                  
                                  log = TRUE), 
                            
                            log(1 - pnorm(y.censored, mean = alpha + X.censored %*% beta,
                                          
                                          sd = sqrt(sigma_sq)))))
-    
-    likelihood    <- exp(loglikelihood)
-    
+    loglikelihood <- sum(log(likelihood))
     
     
     

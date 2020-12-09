@@ -1,6 +1,6 @@
 Package: circgene
 Title: Integration of Circadian Omics Data
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     c(person("Arnab", "Maity", email = "arnab.maity@pfizer.com", role = c("aut", "cre")),
       person("Tapasree", "Roy Sarkar", email = "tsarkar@bio.tamu.edu", role = "aut"),
