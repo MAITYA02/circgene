@@ -1,2 +1,2 @@
 # circgene
-# Author: Arnab Kumar Maity 
+Arnab Kumar Maity 
