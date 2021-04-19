@@ -3,15 +3,15 @@ Title: Integration of Circadian Omics Data
 Version: 0.0.2
 Authors@R: 
     c(person("Arnab", "Maity", email = "arnab.maity@pfizer.com", role = c("aut", "cre")),
-      person("Tapasree", "Roy Sarkar", email = "tsarkar@bio.tamu.edu", role = "aut"),
-      person("Bani", "K. Mallick", email = "bmallick@stat.tamu.edu", role = "aut"),
-      person("Linhan", "Hu", email = "hulinhan2013@tamu.edu", role = "aut"))
-Description: This package provides the posterior sampling algorithm for the Bayesian
+      person("Sang", "Chan Lee", email = "sangchan0624@gmail.com", role = "aut"),
+      person("Linhan", "Hu", email = "hulinhan2013@tamu.edu", role = "aut"),
+      person("Bani", "K. Mallick", email = "bmallick@stat.tamu.edu", role = "aut"))
+Description: Provides the posterior sampling algorithm for the Bayesian
              structural equation modelling for the purpose of multiple platforms
              data integration with application to the Circadean genes.
 Depends: 
 Imports: msm, MASS
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
+LazyData: FALSE
 RoxygenNote: 7.1.1
